@@ -12,6 +12,8 @@ git init 			| to initialize our git repository(which is the 					project folder 
 
 git add <filename>   | to add a file we create into the staging area
 
+git add .			| to add multiple files to the staging area
+
 git commit -m "message"  | this is second command we run after 									adding the file to the staging area. 								This adds the file to the repository.
 
 git log				| shows log changes made to the repository.
