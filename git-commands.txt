@@ -20,4 +20,6 @@ git log				| shows log changes made to the repository.
 
 git status			| shows us the condition of the repository if 							there is a need to add and commit files or 							not
 
-git diff			| shows you the changes you've made in file which you've not added to the staging area or repository(shows you the old text in the file and the new ones you wrote there.)
+git diff			| shows you the changes you've made in file which you've not added to the staging area.(shows you the old text in the file and the new ones you wrote there.). Compares the file in you working copy against your staging area
+
+git diff --staged 		| compares the files in your staging area againast your repository.
