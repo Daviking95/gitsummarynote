@@ -23,3 +23,5 @@ git status			| shows us the condition of the repository if 							there is a nee
 git diff			| shows you the changes you've made in file which you've not added to the staging area.(shows you the old text in the file and the new ones you wrote there.). Compares the file in you working copy against your staging area
 
 git diff --staged 		| compares the files in your staging area againast your repository.
+
+git rm <filename>			| to delete a file from the repository. But you'll still have to commit it.
