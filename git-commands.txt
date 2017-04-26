@@ -1,0 +1,20 @@
+git config user.name | to show the username of the repository
+
+git config user.email | to show the user email of the repository
+
+git config --list
+
+pwd 				| to show us the directory that we are in 							the git bash
+
+ls 					| to list all files and folder in the directory 					that we are in
+
+git init 			| to initialize our git repository(which is the 					project folder on our computer)
+
+git add <filename>   | to add a file we create into the staging area
+
+git commit -m "message"  | this is second command we run after 									adding the file to the staging area. 								This adds the file to the repository.
+
+git log				| shows log changes made to the repository.
+
+git status			| shows us the condition of the repository if 							there is a need to add and commit files or 							not
+
