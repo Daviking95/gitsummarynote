@@ -30,6 +30,23 @@ git mv <firstfile> <newfile> | This is a fresh a way of moving and renaming file
 
 git commit -am "Message" 	| The '-am' allows you to skip the staging area and save directly from the working copy to your repository. but be careful how you use this command. Only use it when you made simple changes in your files.
 
-git checkout -- <filename> 		| 'checkout' means you take something from your repsitory and you put it in your working copy
+git checkout -- <filename> 		| 'checkout' means you take something from your repsitory and you put it back in your working copy (maybe when you make a mistake but you have not committed it yet)
 
 git reset HEAD <filename> 		| to unstage a staged file that has not been committed yet.
+
+git checkout <first few(like 6) characters of the git verson you want to get back.This is usually what you see after 'commit' word when you run 'git log'> -- <filename>. E.g. git checkout 01e7dba -- index.html				| This command is very useful if you want to go back to a particular version of your commit, maybe after you messed up your recent commit. You first run 'git log' to check all your git commits and the use the command above to get back to the version of the commit you want. This doesn't delete the recent version you messed (it's just there), but you can continue working with the version you want and then you have to run the 'git commit -m "" ' command to continue your work.
+
+<!------------- USING GITHUB TO SAVE AND EDIT REPOSITORIES ----------!>
+
+- To push an existing repository from the command line :
+run
+
+git remote add origin https://github.com/Daviking95/DubyTest.git
+git push -u origin master
+
+// 'origin' here is the name you want to give your repository, which you'll be using often instead of typing the url over again
+
+// 'push' is adding your changes to the server
+// 'fetch' is getting your files from the server and downloading them
+
+just use 'git push' in subsequent times on an existing project
