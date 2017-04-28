@@ -25,3 +25,5 @@ git diff			| shows you the changes you've made in file which you've not added to
 git diff --staged 		| compares the files in your staging area againast your repository.
 
 git rm <filename>			| to delete a file from the repository. But you'll still have to commit it.
+
+git mv <firstfile> <newfile> | This is a fresh a way of moving and renaming files
