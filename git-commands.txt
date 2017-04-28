@@ -27,3 +27,9 @@ git diff --staged 		| compares the files in your staging area againast your repo
 git rm <filename>			| to delete a file from the repository. But you'll still have to commit it.
 
 git mv <firstfile> <newfile> | This is a fresh a way of moving and renaming files
+
+git commit -am "Message" 	| The '-am' allows you to skip the staging area and save directly from the working copy to your repository. but be careful how you use this command. Only use it when you made simple changes in your files.
+
+git checkout -- <filename> 		| 'checkout' means you take something from your repsitory and you put it in your working copy
+
+git reset HEAD <filename> 		| to unstage a staged file that has not been committed yet.
